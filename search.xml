@@ -8,7 +8,7 @@
       <link href="/2022/03/20/%E5%89%8D%E7%AB%AF/CSS%E5%9F%BA%E7%A1%80/"/>
       <url>/2022/03/20/%E5%89%8D%E7%AB%AF/CSS%E5%9F%BA%E7%A1%80/</url>
       
-        <content type="html"><![CDATA[<h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2>]]></content>
+        <content type="html"><![CDATA[<h1 id="CSS基础"><a href="#CSS基础" class="headerlink" title="CSS基础"></a>CSS基础</h1><h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2>]]></content>
       
       
       <categories>
@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>前端笔记</title>
-      <link href="/2022/01/14/%E5%89%8D%E7%AB%AF/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2022/01/14/%E5%89%8D%E7%AB%AF/%E6%B5%8B%E8%AF%95/</url>
+      <title>HTML基础</title>
+      <link href="/2022/01/14/%E5%89%8D%E7%AB%AF/HTML%E5%9F%BA%E7%A1%80/"/>
+      <url>/2022/01/14/%E5%89%8D%E7%AB%AF/HTML%E5%9F%BA%E7%A1%80/</url>
       
-        <content type="html"><![CDATA[<p>前端的标签页</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="HTML基础"><a href="#HTML基础" class="headerlink" title="HTML基础"></a>HTML基础</h1>]]></content>
       
       
       <categories>
@@ -54,22 +54,9 @@
     
     
     <entry>
-      <title>测试</title>
-      <link href="/2022/01/10/%E6%BC%94%E7%A4%BA/"/>
-      <url>/2022/01/10/%E6%BC%94%E7%A4%BA/</url>
-      
-        <content type="html"><![CDATA[<p>##二级标题<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发</p><p>###三级标题<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发</p><p>##实例演示<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub</p><p>###三级标题1<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;hello world!\n&quot;);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>预测试</title>
-      <link href="/2022/01/10/%E6%84%9F/"/>
-      <url>/2022/01/10/%E6%84%9F/</url>
+      <title>随记</title>
+      <link href="/2022/01/10/%E9%9A%8F%E8%AE%B0/"/>
+      <url>/2022/01/10/%E9%9A%8F%E8%AE%B0/</url>
       
         <content type="html"><![CDATA[<h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><p><strong>一个满眼是你的人才配得上你全部的爱一个满眼是你的人才配得上你全部的爱</strong><br>一个满眼是你的人才配得上你全部的爱一个满眼是你的人才配得上你全部的爱<br>一个满眼是你的人才配得上你全部的爱一个满眼是你的人才配得上你全部的爱<br>一个满眼是你的人才配得上你全部的爱一个满眼是你的人才配得上你全部的爱<br>一个满眼是你的人才配得上你全部的爱一个满眼是你的人才配得上你全部的爱</p><h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>一个满眼是你的人才配得上你全部的爱<br>一个满眼是你的人才配得上你全部的爱<br>一个满眼是你的人才配得上你全部的爱<br>一个满眼是你的人才配得上你全部的爱<br>一个满眼是你的人才配得上你全部的爱</p><h2 id="尾声"><a href="#尾声" class="headerlink" title="尾声"></a>尾声</h2><p>是你的人才配得上你<br>是你的人才配得上你<br>是你的人才配得上你<br>是你的人才配得上你<br>是你的人才配得上你</p>]]></content>
       
@@ -86,6 +73,19 @@
             <tag> 情感 </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试</title>
+      <link href="/2022/01/10/%E6%B5%8B%E8%AF%95/"/>
+      <url>/2022/01/10/%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<p>##二级标题<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发</p><p>###三级标题<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发<br>web前端开发web前端开发web前端开发</p><p>##实例演示<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub</p><p>###三级标题1<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub<br>wivbiurgeuiwvevbuiewveiuwiwvnioewub</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;hello world!\n&quot;);</span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
       
     </entry>
     
