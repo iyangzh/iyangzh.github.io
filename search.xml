@@ -33,7 +33,7 @@
       <link href="/2022/01/14/%E5%89%8D%E7%AB%AF/HTML%E5%9F%BA%E7%A1%80/"/>
       <url>/2022/01/14/%E5%89%8D%E7%AB%AF/HTML%E5%9F%BA%E7%A1%80/</url>
       
-        <content type="html"><![CDATA[<p>前端开发<br>前端开发<br>前端开发<br>前端开发<br>前端开发</p><p>前端开发<br>前端开发<br>前端开发</p><p>前端开发</p><p>前端开发</p><p>前端开发</p><p>前端开发</p><p>使用HTML时，需要遵从一定的规范，CSS也是如此。要想熟练地使用CSS对网页进行修饰，首先需要了解CSS样式规则。<br>CSS规则由两个主要的部分构成：选择器以及一条或多条声明。</p>]]></content>
+        <content type="html"><![CDATA[<p>前端开发<br>前端开发<br>前端开发<br>前端开发<br>前端开发</p><p>前端开发<br>前端开发<br>前端开发</p><p>前端开发</p><p>前端开发</p><p>前端开发</p><p>前端开发</p><p>使用HTML时，需要遵从一定的规范，CSS也是如此。要想熟练地使用CSS对网页进行修饰，首先需要了解CSS样式规则。<br>CSS规则由两个主要的部分构成：选择器以及一条或多条声明。</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;标签名 style=&quot;属性1:属性值1; 属性2:属性值2; 属性3:属性值3;&quot;&gt; </span><br><span class="line">    内容 </span><br><span class="line">&lt;/标签名&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">style</span>=<span class="string">&quot;color: red; font-size: 12px;&quot;</span>&gt;</span></span><br><span class="line">    示例</span><br><span class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
