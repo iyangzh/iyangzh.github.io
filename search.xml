@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>微信小程序（一）</title>
+      <link href="/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+      <url>/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="小程序简介"><a href="#小程序简介" class="headerlink" title="小程序简介"></a>小程序简介</h1><h2 id="小程序与网页开发的区别"><a href="#小程序与网页开发的区别" class="headerlink" title="小程序与网页开发的区别"></a>小程序与网页开发的区别</h2><ol><li>运行环境不同</li><li>API不同</li><li>开发模式不同</li></ol><h2 id="项目结构"><a href="#项目结构" class="headerlink" title="项目结构"></a>项目结构</h2><ol><li><strong>pages     用来存放所有小程序的页面</strong></li><li>utils用来存放工具性质的模块（例如格式化时间的自定义模块）</li><li><strong>app.js小程序项目的入口文件</strong></li><li><strong>app.json小程序项目的全局配置文件</strong></li><li>app.wxss小程序项目的全局样式文件</li><li>project.config.json项目的配置文件</li><li>sitemap.json用来配置小程序及其页面是否允许被微信索引</li></ol><h3 id="json配置文件的作用"><a href="#json配置文件的作用" class="headerlink" title="json配置文件的作用"></a>json配置文件的作用</h3><p>json是一种数据格式，常以配置文件形式出现</p><ol><li>app.json是当前小程序的全局配置，包括小程序所有页面路径，窗口外观，界面表现，底部tab</li><li>project.config.json是项目配置文件，记录对小程序开发工具所作的个性化配置</li><li>sitemap.json用来配置小程序及其页面是否允许被微信索引</li><li>页面的json文件来对页面窗口外观进行配置，会覆盖app.json 和window中相同的配置</li><li>新建程序页面和修改项目主页</li></ol><h3 id="WXML模板"><a href="#WXML模板" class="headerlink" title="WXML模板"></a>WXML模板</h3><p>WXML(weixin Markup Language)是小程序框架设计的一套标签语言，用来构建小程序页面的结构，类似HTML</p><p>区别：</p><ol><li>标签名称不同</li><li>属性节点不同</li><li>提供类似Vue中的模板语法</li></ol><h3 id="WXSS样式"><a href="#WXSS样式" class="headerlink" title="WXSS样式"></a>WXSS样式</h3><p>WXSS(weixin Style Sheets)是一套样式语言，用来描述WXSS的组件样式，类似CSS</p><p>区别：</p><ol><li>新增rpx尺寸单位</li><li>提供全局样式和局部样式</li><li>WXSS仅支持部分CSS选择器</li></ol><h3 id="JS逻辑交互"><a href="#JS逻辑交互" class="headerlink" title="JS逻辑交互"></a>JS逻辑交互</h3><p>小程序js文件分为三大类</p><ol><li>app.js 是整个小程序项目的入口文件，通过调用<strong>APP()函数</strong>来启动整个小程序</li><li>页面的js文件 是页面的入口文件，通过调用<strong>Page()函数</strong>来创建并运行页面</li><li>普通的js文件 是普通的功能模块文件，用来封装公开的函数或属性供页面使用</li></ol><h1 id="宿主环境简介"><a href="#宿主环境简介" class="headerlink" title="宿主环境简介"></a>宿主环境简介</h1><p>宿主环境指的是程序运行所必须的依赖环境</p><p>手机微信是小程序的宿主环境，小程序借助宿主环境提供的能力，可以完成许多普通网页无法完成的功能，例如微信扫码，微信支付</p><p>小程序宿主环境包含的内容</p><ol><li>通信模型</li><li>运行机制</li><li>组件</li><li>API</li></ol><h2 id="通信模型"><a href="#通信模型" class="headerlink" title="通信模型"></a>通信模型</h2><p>小程序中通信的主体是渲染层和逻辑层</p><ol><li>WXML模板和WXSS样式工作在渲染层</li><li>JS脚本工作在逻辑层</li><li>渲染层和逻辑层之间的通信是由微信客户端进行转发</li><li>逻辑层和第三方服务器之间的通信是由微信客户端进行转发</li></ol><h2 id="运行机制"><a href="#运行机制" class="headerlink" title="运行机制"></a>运行机制</h2><p>小程序启动过程</p><ol><li>把小程序的代码包下载到本地</li><li>解析app.json全局配置文件</li><li>执行app.js小程序入口文件，调用APP()创建小程序实例</li><li>渲染小程序首页</li><li>小程序启动完成</li></ol><p>页面渲染过程</p><ol><li>加载解析页面的json配置文件</li><li>加载也买你的wxml模板和wxss样式</li><li>执行页面的js文件，调用Page()创建页面实例</li><li>页面渲染完成</li></ol><h2 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h2><p>小程序的组件也是由宿主环境提供，官方把小程序组件分为了9大类，分别是</p><ol><li><strong>视图容器</strong></li><li><strong>基础内容</strong></li><li><strong>表单组件</strong></li><li><strong>导航组件</strong></li><li>媒体组件</li><li>map地图组件</li><li>canvas画布组件</li><li>开放能力</li><li>无障碍访问</li></ol><h3 id="常用视图容器类组件"><a href="#常用视图容器类组件" class="headerlink" title="常用视图容器类组件"></a>常用视图容器类组件</h3><ol><li><code>view </code>普通视图区域，类似div，块级元素，常用来实现页面布局效果</li><li><code>scroll-view</code> 可滚动试图区域，常用来实现滚动列表效果</li><li><code>swiper和swiper-stem</code> 轮播图组件和轮播图item组件</li></ol><h4 id="swiper组件常用属性"><a href="#swiper组件常用属性" class="headerlink" title="swiper组件常用属性"></a>swiper组件常用属性</h4><table><thead><tr><th>属性</th><th>类型</th><th>默认值</th><th>说明</th></tr></thead><tbody><tr><td>indicator-dots</td><td>boolean</td><td>false</td><td>是否显示面板指示点</td></tr><tr><td>indicator-color</td><td>color</td><td>rgba(0,0,0,.3)</td><td>指示点颜色</td></tr><tr><td>indicator-active-color</td><td>color</td><td>#00000</td><td>当前选中的指示点颜色</td></tr><tr><td>autoplay</td><td>boolean</td><td>false</td><td>是否自动切换</td></tr><tr><td>interval</td><td>number</td><td>5000</td><td>自动切换时间间隔</td></tr><tr><td>circular</td><td>boolean</td><td>false</td><td>是否采用衔接滑动</td></tr></tbody></table><h3 id="常用基础内容组件"><a href="#常用基础内容组件" class="headerlink" title="常用基础内容组件"></a>常用基础内容组件</h3><ol><li><code>text</code> 文本组件，类似span标签，行内块元素</li><li><code>rich-text</code> 富文本组件，支持把HTML字符串渲染为WXML结构</li></ol><h3 id="其他常用组件"><a href="#其他常用组件" class="headerlink" title="其他常用组件"></a>其他常用组件</h3><ol><li><code>button</code> 按钮组件，功能比HTML中的button按钮丰富，通过open-type属性可以掉用微信提供的各种功能</li><li><code>image</code> 图片组件，默认宽度300px 高度240px</li><li><code>navigator</code> 页面导航组件。类似HTML的a链接</li></ol><h4 id="image组件的mode属性"><a href="#image组件的mode属性" class="headerlink" title="image组件的mode属性"></a>image组件的mode属性</h4><p>image组件中的mode属性用来指定图片的裁剪和缩放模式</p><table><thead><tr><th>mode值</th><th>说明</th></tr></thead><tbody><tr><td>scaleToFill</td><td>默认值，缩放模式，不支持纵横比缩放图片，图片宽高完全拉伸填满image元素</td></tr><tr><td>aspectFit</td><td>缩放模式，保持纵横比缩放图片，图片长边能完全显示出来，也就说，可以完整将图片显示出来</td></tr><tr><td>aspectFill</td><td>缩放模式，保持纵横比缩放图片，只能保证推按短边能完全显示，也就是说，图片通常在水平或垂直方向是完整的，另一个方向会发生截取</td></tr><tr><td>widthFix</td><td>缩放模式，宽度不变，高度自动变化，保持原图宽高不变</td></tr><tr><td>heightFix</td><td>缩放模式，高度不变，宽度自动变化，保持原图宽高不变</td></tr></tbody></table><h2 id="API"><a href="#API" class="headerlink" title="API"></a>API</h2><p>小程序API是由宿主环境提供的</p><p>三大类：</p><p><code>事件监听API</code></p><ul><li>特点：以on开头，用来监听某些事件的触发</li><li>举例：wx.onWindowResize(function callback)监听窗口尺寸变化的事件</li></ul><p><code>同步API</code></p><ul><li>特点：以Sync结尾的API都是同步API，同步API执行的结果，可以通过函数返回值直接获取，执行错误会抛出异常</li><li>举例：wx.setStorageSync(‘key’, ‘value’)向本地存储中写入内容</li></ul><p><code>异步API</code></p><ul><li>特点：类似JQ中$.ajax(options)函数</li><li>举例：wx.request() 发起网络数据请求，通过success回调函数接收数据</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端开发 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 微信小程序 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaScript BOM</title>
       <link href="/%E5%89%8D%E7%AB%AF/JavaScript%20BOM/"/>
       <url>/%E5%89%8D%E7%AB%AF/JavaScript%20BOM/</url>
